@@ -1,0 +1,100 @@
+@import "scss/core";
+@import "scss/variables";
+@import "scss/header";
+
+.section-babe-guide {
+  //background-image: url("./../../images/parallax-left.png"),
+  //  url("./../../images/parallax-right.png");
+  //background-repeat: no-repeat;
+  //background-position: left -327px top -470px, left 1464px bottom 418px;
+  background: url("./../../images/parallax.png") -100px no-repeat;
+}
+.babe-slider {
+  padding-top: 50px;
+  margin: 0 auto;
+}
+.intro-banner {
+  display: flex;
+  height: 100%;
+}
+.intro-banner__image {
+  max-width: 760px;
+
+  img {
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    margin: auto auto;
+  }
+}
+.babe-img {
+  display: block;
+  max-width: 100%;
+  height: 100%;
+}
+.intro-banner__text {
+  height: 100%;
+  text-align: left;
+  position: relative;
+}
+.intro-banner__text-first-title {
+  font-weight: 700;
+  padding-top: 30px;
+  font-size: 40px;
+  color: #f60c4d;
+}
+.intro-banner__text-first-title p {
+  padding: 0;
+  margin: 0;
+}
+.title-row-2 {
+  text-indent: 20px;
+}
+.title-row-3 {
+  text-indent: 30px;
+}
+.title-row-4 {
+  text-indent: 40px;
+}
+.title-row-5 {
+  margin: 0 110px 0 110px;
+  background-color: #ffde00;
+  display: flex;
+  justify-content: center;
+}
+.title-row-6 {
+  padding: 0 30px 0 30px;
+  display: flex;
+  background-color: #ffde00;
+  justify-content: center;
+}
+.intro-banner__text-second-title {
+  position: relative;
+  width: 100%;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #b70536;
+  font-size: 35px;
+}
+.intro-banner__text-second-title {
+  padding: 0;
+  margin-top: -40px;
+  margin-left: 30px;
+}
+
+.btn-main {
+  font-weight: 700;
+  padding: 39px 100px 39px 110px;
+  font-size: 50px;
+  border-radius: 220px;
+  text-transform: uppercase;
+  background-image: linear-gradient(to right, #fd0303, #ef0a6a);
+}
+.btn a {
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
