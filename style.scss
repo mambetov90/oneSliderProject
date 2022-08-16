@@ -1,18 +1,10 @@
 @import "scss/core";
 @import "scss/variables";
 @import "scss/header";
+@import "scss/main-banner";
 
-.section-babe-guide {
-  //background-image: url("./../../images/parallax-left.png"),
-  //  url("./../../images/parallax-right.png");
-  //background-repeat: no-repeat;
-  //background-position: left -327px top -470px, left 1464px bottom 418px;
-  background: url("./../../images/parallax.png") -100px no-repeat;
-}
-.babe-slider {
-  padding-top: 50px;
-  margin: 0 auto;
-}
+
+
 .intro-banner {
   display: flex;
   height: 100%;

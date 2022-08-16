@@ -1,0 +1,60 @@
+.section-main-banner {
+  background: url("./../../images/parallax.png") -100px no-repeat;
+}
+
+.main-banner {
+  padding-top: 50px;
+  margin: 0 auto;
+}
+
+.intro-banner {
+  display: flex;
+  height: 100%;
+}
+
+.intro-banner__image {
+  max-width: 760px;
+}
+
+.intro-banner__image img {
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  margin: auto auto;
+}
+
+.intro-banner__text {
+  width: 70%;
+}
+
+.intro-banner__text_upper {
+  text-align: left;
+  font-size: 50px;
+  color: #f60c4d;
+  font-weight: 900;
+  margin-top: 30px;
+  display: block;
+}
+
+.row-indent-upper {
+  padding-left: 20px;
+}
+
+.row-indent-mid {
+  padding-left: 30px;
+}
+
+.row-indent-bottom {
+  padding-left: 40px;
+}
+
+.intro-banner__text_bottom {
+  display: block;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #b70536;
+  font-size: 45px;
+  background-color: #ffde00;
+}
