@@ -26,7 +26,8 @@
 }
 
 .intro-banner__text {
-  width: 70%;
+  width: 75%;
+  position: relative;
 }
 
 .intro-banner__text_upper {
@@ -52,9 +53,32 @@
 
 .intro-banner__text_bottom {
   display: block;
+  position: absolute;
+  text-align: center;
+  top: 210px;
+  left: 50px;
   font-weight: 700;
   text-transform: uppercase;
   color: #b70536;
   font-size: 45px;
+}
+
+.row-upper {
+  padding: 0 10px 0 10px;
   background-color: #ffde00;
+}
+
+.row-bottom {
+  padding: 0 20px 0 20px;
+  background-color: #ffde00;
+}
+
+.btn-main {
+  font-weight: 700;
+  padding: 39px 100px 39px 110px;
+  margin: 120px 30px 0 30px;
+  font-size: 50px;
+  border-radius: 220px;
+  text-transform: uppercase;
+  background-image: linear-gradient(to right, #fd0303, #ef0a6a);
 }

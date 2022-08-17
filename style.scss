@@ -2,6 +2,7 @@
 @import "scss/variables";
 @import "scss/header";
 @import "scss/main-banner";
+@import "scss/guide-content";
 
 
 
@@ -21,60 +22,60 @@
     margin: auto auto;
   }
 }
-.babe-img {
-  display: block;
-  max-width: 100%;
-  height: 100%;
-}
-.intro-banner__text {
-  height: 100%;
-  text-align: left;
-  position: relative;
-}
-.intro-banner__text-first-title {
-  font-weight: 700;
-  padding-top: 30px;
-  font-size: 40px;
-  color: #f60c4d;
-}
-.intro-banner__text-first-title p {
-  padding: 0;
-  margin: 0;
-}
-.title-row-2 {
-  text-indent: 20px;
-}
-.title-row-3 {
-  text-indent: 30px;
-}
-.title-row-4 {
-  text-indent: 40px;
-}
-.title-row-5 {
-  margin: 0 110px 0 110px;
-  background-color: #ffde00;
-  display: flex;
-  justify-content: center;
-}
-.title-row-6 {
-  padding: 0 30px 0 30px;
-  display: flex;
-  background-color: #ffde00;
-  justify-content: center;
-}
-.intro-banner__text-second-title {
-  position: relative;
-  width: 100%;
-  font-weight: 700;
-  text-transform: uppercase;
-  color: #b70536;
-  font-size: 35px;
-}
-.intro-banner__text-second-title {
-  padding: 0;
-  margin-top: -40px;
-  margin-left: 30px;
-}
+// .babe-img {
+//   display: block;
+//   max-width: 100%;
+//   height: 100%;
+// }
+// .intro-banner__text {
+//   height: 100%;
+//   text-align: left;
+//   position: relative;
+// }
+// .intro-banner__text-first-title {
+//   font-weight: 700;
+//   padding-top: 30px;
+//   font-size: 40px;
+//   color: #f60c4d;
+// }
+// .intro-banner__text-first-title p {
+//   padding: 0;
+//   margin: 0;
+// }
+// .title-row-2 {
+//   text-indent: 20px;
+// }
+// .title-row-3 {
+//   text-indent: 30px;
+// }
+// .title-row-4 {
+//   text-indent: 40px;
+// }
+// .title-row-5 {
+//   margin: 0 110px 0 110px;
+//   background-color: #ffde00;
+//   display: flex;
+//   justify-content: center;
+// }
+// .title-row-6 {
+//   padding: 0 30px 0 30px;
+//   display: flex;
+//   background-color: #ffde00;
+//   justify-content: center;
+// }
+// .intro-banner__text-second-title {
+//   position: relative;
+//   width: 100%;
+//   font-weight: 700;
+//   text-transform: uppercase;
+//   color: #b70536;
+//   font-size: 35px;
+// }
+// .intro-banner__text-second-title {
+//   padding: 0;
+//   margin-top: -40px;
+//   margin-left: 30px;
+// }
 
 .btn-main {
   font-weight: 700;
