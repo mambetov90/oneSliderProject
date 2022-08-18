@@ -1,9 +1,6 @@
 .section-main-banner {
-  //background-image: url("./../../images/parallax-left.png"),
-  //  url("./../../images/parallax-right.png");
-  //background-repeat: no-repeat;
-  //background-position: left -327px top -470px, left 1464px bottom 418px;
-  background: url("./../../images/parallax.png") -100px no-repeat;
+  background: url("./../../images/parallax-left.png") -327px -294px no-repeat, url("./../../images/parallax-right.png") 1000px 0px no-repeat;
+  background-attachment: fixed;
 }
 
 .main-banner {

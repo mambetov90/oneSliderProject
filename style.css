@@ -125,7 +125,8 @@ ol {
 }
 
 .section-main-banner {
-  background: url("./../../images/parallax.png") -100px no-repeat;
+  background: url("./../../images/parallax-left.png") -327px -294px no-repeat, url("./../../images/parallax-right.png") 1000px 0px no-repeat;
+  background-attachment: fixed;
 }
 
 .main-banner {
