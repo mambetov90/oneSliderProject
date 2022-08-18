@@ -1,0 +1,5 @@
+.section-care-content {
+  background: var(--cPink) url(../images/banner.png) no-repeat center;
+  width: 100%;
+  height: 700px;
+}

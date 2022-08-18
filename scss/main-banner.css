@@ -60,18 +60,18 @@
   left: 50px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #b70536;
+  color: var(--cDarkPink);
   font-size: 45px;
 }
 
 .row-upper {
   padding: 0 10px 0 10px;
-  background-color: #ffde00;
+  background-color: var(--cYellow);
 }
 
 .row-bottom {
   padding: 0 20px 0 20px;
-  background-color: #ffde00;
+  background-color: var(--cYellow);
 }
 
 .btn-main {
@@ -81,5 +81,5 @@
   font-size: 50px;
   border-radius: 220px;
   text-transform: uppercase;
-  background-image: linear-gradient(to right, #fd0303, #ef0a6a);
+  background-image: linear-gradient(to right, var(--cRed), var(--cPink));
 }
