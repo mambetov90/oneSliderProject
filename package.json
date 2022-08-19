@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "scss": "sass --watch --sourcemap=none style.scss:style.css --no-cache"
+    "scss": "sass --no-source-map --watch ."
   },
   "repository": {
     "type": "git",
@@ -20,5 +20,6 @@
   "dependencies": {
     "prettier": "^2.7.1",
     "sass": "^1.54.4"
-  }
+  },
+  "devDependencies": {}
 }

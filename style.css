@@ -606,6 +606,107 @@ ol {
   background-size: cover;
 }
 
+.footer {
+  position: relative;
+}
+.footer .hidden-bottom-text {
+  margin-top: 20px;
+  color: var(--cWhite);
+  font-size: 15px;
+  position: absolute;
+  right: 180px;
+  bottom: 80px;
+}
+
+.footer-block {
+  display: flex;
+  height: 320px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.footer {
+  height: 100%;
+  margin-top: 50px;
+  background-image: linear-gradient(to right, var(--cRed), var(--cPink));
+  background-size: cover;
+}
+.footer .footer-logo-icons {
+  display: flex;
+  justify-content: left;
+  margin-top: 210px;
+}
+.footer .footer-logo-icons a {
+  text-decoration: none;
+}
+.footer .footer-logo-icons a:hover {
+  text-decoration: none;
+  opacity: 0.9;
+}
+.footer .footer-logo-icons img {
+  width: 60px;
+  height: 60px;
+}
+.footer .footer-text {
+  max-width: 350px;
+  display: flex;
+  height: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--cDarkPink);
+  align-items: center;
+  justify-content: center;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+.footer .footer-text p {
+  height: 100%;
+  margin: 0;
+}
+.footer .footer-label {
+  display: flex;
+  margin-top: 70px;
+  margin-left: 35px;
+}
+.footer .footer-label img {
+  width: 190px;
+  height: 190px;
+}
+.footer .footer-subscribe {
+  display: flex;
+  margin-top: 60px;
+  margin-left: 90px;
+  position: relative;
+}
+.footer .footer-subscribe .footer-subscribe-content .hidden-header-text {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: var(--cWhite);
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+.footer .footer-subscribe .footer-subscribe-content .subscribe-content-hint {
+  color: var(--cWhite);
+  font-weight: 700;
+  font-size: 15px;
+}
+.footer .footer-subscribe .btn-footer {
+  margin-top: 20px;
+  font-size: var(--sFontBody);
+  font-weight: 700;
+  padding: 12px 45px 12px 45px;
+  border-radius: 49px;
+  text-transform: lowercase;
+  background: var(--cDarkPink);
+  margin-left: 0;
+}
+
 .intro-banner {
   display: flex;
   height: 100%;
