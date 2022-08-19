@@ -1,14 +1,5 @@
 .footer {
   position: relative;
-
-  .hidden-bottom-text {
-    margin-top: 20px;
-    color: var(--cWhite);
-    font-size: 15px;
-    position: absolute;
-    right: 180px;
-    bottom: 80px;
-  }
 }
 .footer-block {
   display: flex;
@@ -88,6 +79,13 @@
         color: var(--cWhite);
         font-weight: 700;
         font-size: 15px;
+      }
+
+      .hidden-bottom-text {
+        margin-top: 20px;
+        color: var(--cWhite);
+        font-size: 15px;
+        max-width: 450px;
       }
     }
 

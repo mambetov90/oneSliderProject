@@ -609,14 +609,6 @@ ol {
 .footer {
   position: relative;
 }
-.footer .hidden-bottom-text {
-  margin-top: 20px;
-  color: var(--cWhite);
-  font-size: 15px;
-  position: absolute;
-  right: 180px;
-  bottom: 80px;
-}
 
 .footer-block {
   display: flex;
@@ -695,6 +687,12 @@ ol {
   color: var(--cWhite);
   font-weight: 700;
   font-size: 15px;
+}
+.footer .footer-subscribe .footer-subscribe-content .hidden-bottom-text {
+  margin-top: 20px;
+  color: var(--cWhite);
+  font-size: 15px;
+  max-width: 450px;
 }
 .footer .footer-subscribe .btn-footer {
   margin-top: 20px;
