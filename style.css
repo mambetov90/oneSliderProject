@@ -33,8 +33,8 @@ ol {
 
 .container {
   width: 100%;
-  max-width: 1200px;
-  padding: 0 20px;
+  max-width: 1360px;
+  padding: 0 80px;
   margin: 0 auto;
 }
 
@@ -53,6 +53,11 @@ ol {
   --cPink: #ef0a6a;
   --cDarkPink: #b70536;
   --cYellow: #ffde00;
+  --cBlack: #000000;
+  --cLightBlack: #595959;
+  --sFontMedium: 14px;
+  --sFontBody: 16px;
+  --sFontLarge: 20px;
 }
 
 .header {
@@ -303,6 +308,196 @@ ol {
   font-size: 30px;
   padding: 80px 0;
   margin: 0;
+}
+
+.section-carousel-reviews {
+  padding-top: 50px;
+  background: #F3F3F3;
+  padding-bottom: 100px;
+  position: relative;
+}
+.section-carousel-reviews .slick-list {
+  margin: 0 -27px;
+}
+.section-carousel-reviews .slick-track {
+  display: flex !important;
+}
+.section-carousel-reviews .slick-slide {
+  height: inherit !important;
+  margin: 0 27px;
+}
+.section-carousel-reviews .carousel__arrow_prev {
+  left: 10px;
+}
+.section-carousel-reviews .carousel__arrow_next {
+  right: 10px;
+}
+.section-carousel-reviews .carousel__arrow {
+  top: 50%;
+  transform: translateY(-50%);
+  height: 56px;
+  width: 56px;
+  position: absolute;
+  cursor: pointer;
+}
+@media screen and (max-width: 1200px) {
+  .section-carousel-reviews .carousel__arrow {
+    height: 46px;
+    width: 46px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .section-carousel-reviews .carousel__arrow {
+    height: 36px;
+    width: 36px;
+  }
+}
+.section-carousel-reviews .carousel__arrow:hover, .section-carousel-reviews .carousel__arrow:active {
+  opacity: 0.85;
+}
+
+.review-block {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  filter: drop-shadow(2px -11px 11px rgba(0, 0, 0, 0.2));
+}
+
+.review-block__info {
+  padding: 30px 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.review-block__link {
+  text-decoration: none;
+  color: var(--cBlack);
+}
+
+.review-block__image img {
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  margin: auto auto;
+}
+
+.review-block__content {
+  padding: 20px 20px 40px;
+  background: var(--cWhite);
+  position: relative;
+  flex-grow: 1;
+}
+
+.review-block__content-header {
+  margin: 0;
+  text-align: center;
+  color: var(--cLightBlack);
+  font-size: var(--sFontLarge);
+  font-weight: 700;
+}
+@media screen and (max-width: 1200px) {
+  .review-block__content-header {
+    font-size: var(--sFontBody);
+  }
+}
+
+.review-block__content-btn {
+  background-image: linear-gradient(to right, var(--cRed), var(--cPink));
+  display: inline-flex;
+  color: var(--cWhite);
+  padding: 15px 40px;
+  border-radius: 34px;
+  text-align: center;
+  align-items: center;
+  position: absolute;
+  width: 150px;
+  bottom: -24px;
+  justify-self: center;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media screen and (max-width: 1200px) {
+  .review-block__content-text {
+    font-size: var(--sFontMedium);
+  }
+}
+
+.section-preview-content {
+  padding-top: 70px;
+}
+
+.preview-content__image {
+  position: relative;
+}
+.preview-content__image img {
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  margin: auto auto;
+}
+
+.preview-content__text {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: var(--sFontLarge);
+}
+
+.preview-content__preview-btn {
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: 700;
+  color: var(--cWhite);
+  padding: 20px 80px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(239, 10, 106, 0.7);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 137.5px;
+}
+
+.preview-result-block__billet {
+  margin-top: 60px;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+  font-size: 40px;
+  background: var(--cYellow);
+  padding: 40px 100px;
+  text-align: center;
+  border-radius: 16px;
+}
+
+.preview-results-block__images {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+}
+@media screen and (max-width: 767px) {
+  .preview-results-block__images {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+.preview-results-block__image img {
+  max-height: 100%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  margin: auto auto;
+}
+
+.preview-love {
+  background: url("images/with-love.png") center no-repeat;
+  background-size: cover;
 }
 
 .intro-banner {
