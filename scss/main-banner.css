@@ -1,6 +1,5 @@
 .section-main-banner {
-  background: url("images/parallax-left.png") -327px -294px no-repeat,
-    url("images/parallax-right.png") 1000px 0px no-repeat;
+  background: url("images/parallax-left.png") -327px -294px no-repeat, url("images/parallax-right.png") 1000px 0px no-repeat;
   background-attachment: fixed;
 }
 
@@ -30,8 +29,9 @@
 .intro-banner__text {
   width: 75%;
   position: relative;
-
-  @media screen and (max-width: 1023px) {
+}
+@media screen and (max-width: 1023px) {
+  .intro-banner__text {
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -46,25 +46,28 @@
   font-weight: 900;
   margin-top: 30px;
   display: block;
-
-  & > span {
-    display: block;
-
-    @media screen and (max-width: 1023px) {
-      display: inline-block;
-      padding-left: 0;
-    }
+}
+.intro-banner__text_upper > span {
+  display: block;
+}
+@media screen and (max-width: 1023px) {
+  .intro-banner__text_upper > span {
+    display: inline-block;
+    padding-left: 0;
   }
-
-  @media screen and (max-width: 1200px) {
+}
+@media screen and (max-width: 1200px) {
+  .intro-banner__text_upper {
     font-size: 40px;
   }
-
-  @media screen and (max-width:1023px) {
+}
+@media screen and (max-width: 1023px) {
+  .intro-banner__text_upper {
     font-size: 24px;
     text-align: center;
   }
 }
+
 .row-indent-upper {
   padding-left: 20px;
 }
@@ -87,22 +90,24 @@
   text-transform: uppercase;
   color: var(--cDarkPink);
   font-size: 45px;
-
-  & > span {
-    display: block;
-
-    @media screen and (max-width: 1023px) {
-      display: inline-block;
-    }
+}
+.intro-banner__text_bottom > span {
+  display: block;
+}
+@media screen and (max-width: 1023px) {
+  .intro-banner__text_bottom > span {
+    display: inline-block;
   }
-
-  @media screen and (max-width:1200px) {
+}
+@media screen and (max-width: 1200px) {
+  .intro-banner__text_bottom {
     top: 170px;
     left: 50px;
     font-size: 35px;
   }
-
-  @media screen and (max-width:1023px) {
+}
+@media screen and (max-width: 1023px) {
+  .intro-banner__text_bottom {
     margin-top: 30px;
     position: relative;
     top: inherit;
@@ -129,13 +134,15 @@
   border-radius: 220px;
   text-transform: uppercase;
   background-image: linear-gradient(to right, var(--cRed), var(--cPink));
-
-  @media screen and (max-width:1200px) {
+}
+@media screen and (max-width: 1200px) {
+  .btn-main {
     padding: 30px 80px;
     font-size: 40px;
   }
-
-  @media screen and (max-width:1023px) {
+}
+@media screen and (max-width: 1023px) {
+  .btn-main {
     margin: 30px auto 0;
     font-size: 24px;
     padding: 20px 40px;

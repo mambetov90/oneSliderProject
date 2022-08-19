@@ -16,9 +16,20 @@
 .intro-banner {
   display: flex;
   height: 100%;
+
+  @media screen and (max-width: 1023px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 }
+
 .intro-banner__image {
   max-width: 760px;
+
+  @media screen and (max-width: 1023px) {
+    max-width: 360px;
+  }
 
   img {
     max-height: 100%;
@@ -30,14 +41,6 @@
   }
 }
 
-.btn-main {
-  font-weight: 700;
-  padding: 39px 100px 39px 110px;
-  font-size: 50px;
-  border-radius: 220px;
-  text-transform: uppercase;
-  background-image: linear-gradient(to right, var(--cRed), var(--cPink));
-}
 .btn a {
   color: var(--cWhite);
   justify-content: center;
