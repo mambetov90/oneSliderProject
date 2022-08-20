@@ -538,6 +538,13 @@ ol {
 @media screen and (max-width: 1023px) {
   .section__title {
     font-size: 30px;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .section__title {
+    font-size: 40px;
+    text-align: center;
   }
 }
 
@@ -620,9 +627,18 @@ ol {
 }
 @media screen and (max-width: 767px) {
   .care-content-block__text {
-    font-size: 30px;
+    font-size: 25px;
     max-width: 200px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .care-content-block__text {
+    font-size: 10px;
+    max-width: 100px;
     padding: 40px 0;
+    position: relative;
+    bottom: 20px;
+    left: 65px;
   }
 }
 .care-content-block__text p {
@@ -840,6 +856,12 @@ ol {
   background: rgba(239, 10, 106, 0.7);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 137.5px;
+}
+@media screen and (max-width: 375px) {
+  .preview-content__preview-btn {
+    padding: 17px 35px;
+    font-size: 17px;
+  }
 }
 
 .preview-result-block__billet {
