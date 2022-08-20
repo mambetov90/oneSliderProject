@@ -1,3 +1,9 @@
+@media screen and (max-width: 1200px) {
+  .section-guide-content {
+    margin: 0 20px;
+  }
+}
+
 .guide-content-block {
   width: 100%;
   max-width: 1400px;
@@ -47,6 +53,11 @@
 
 .articles__item {
   flex-basis: 100%;
+}
+@media screen and (max-width: 1200px) {
+  .articles__item {
+    text-align: center;
+  }
 }
 
 .articles__title {

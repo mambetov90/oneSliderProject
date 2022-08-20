@@ -3,101 +3,154 @@
 }
 .footer-block {
   display: flex;
-  height: 320px;
+  justify-content: center;
 }
 
 .footer-content {
   display: flex;
   justify-content: space-between;
   margin: 0;
-  padding: 0;
-  height: 100%;
+  gap: 50px;
+  padding: 30px 0;
+  align-items: center;
+
+  @media screen and (max-width: 1200px) {
+    gap: 20px;
+    flex-direction: column;
+  }
 }
 .footer {
   height: 100%;
   margin-top: 50px;
   background-image: linear-gradient(to right, var(--cRed), var(--cPink));
   background-size: cover;
+}
 
-  .footer-logo-icons {
-    display: flex;
-    justify-content: left;
-    margin-top: 210px;
-    a {
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: none;
-      opacity: 0.9;
-    }
-    img {
-      width: 60px;
-      height: 60px;
-    }
+.footer-logo-icons {
+  display: flex;
+  justify-content: left;
+  gap: 15px;
+
+  @media screen and (min-width: 1201px) {
+    align-self: end;
   }
 
-  .footer-text {
+  a {
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: none;
+    opacity: 0.9;
+  }
+
+  img {
+    width: 60px;
+    height: 60px;
+  }
+}
+
+.footer-text {
+  display: flex;
+  height: 100%;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--cDarkPink);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+  @media screen and (min-width: 1201px) {
     max-width: 350px;
-    display: flex;
+    text-align: left;
+  }
+
+  p {
     height: 100%;
-    font-size: 16px;
-    font-weight: 400;
-    color: var(--cDarkPink);
-    align-items: center;
-    justify-content: center;
-    margin-left: 80px;
-    margin-top: 30px;
-    p {
-      height: 100%;
-      margin: 0;
+    margin: 0;
+  }
+}
+
+.footer-label {
+  display: flex;
+
+  img {
+    width: 190px;
+    height: 190px;
+  }
+}
+
+.footer-subscribe {
+  display: flex;
+  position: relative;
+}
+
+.hidden-header-text {
+  text-transform: uppercase;
+  font-size: 20px;
+  color: var(--cWhite);
+  font-weight: 900;
+  margin-bottom: 20px;
+  opacity: 0.51;
+
+  @media screen and (max-width: 1023px) {
+    text-align: center;
+  }
+}
+.subscribe-content-hint {
+  padding: 5px;
+  color: var(--cWhite);
+  font-weight: 700;
+  background: transparent;
+  border: none;
+
+  &::placeholder {
+    color: var(--cWhite);
+    font-weight: 700;
+
+    @media screen and (max-width:1200px) {
+      text-align: center;
     }
   }
-  .footer-label {
-    display: flex;
-    margin-top: 70px;
-    margin-left: 35px;
 
-    img {
-      width: 190px;
-      height: 190px;
-    }
+  @media screen and (max-width: 1200px) {
+    flex-grow: 1;
+    width: 100%;
   }
-  .footer-subscribe {
-    display: flex;
-    margin-top: 60px;
-    margin-left: 90px;
-    position: relative;
-    .footer-subscribe-content {
-      .hidden-header-text {
-        text-transform: uppercase;
-        font-size: 20px;
-        color: var(--cWhite);
-        font-weight: 900;
-        margin-bottom: 20px;
-      }
-      .subscribe-content-hint {
-        color: var(--cWhite);
-        font-weight: 700;
-        font-size: 15px;
-      }
+}
 
-      .hidden-bottom-text {
-        margin-top: 20px;
-        color: var(--cWhite);
-        font-size: 15px;
-        max-width: 450px;
-      }
-    }
+.hidden-bottom-text {
+  margin-top: 20px;
+  color: var(--cWhite);
+  font-size: 15px;
+  max-width: 450px;
+  opacity: 0.51;
 
-    .btn-footer {
-      margin-top: 20px;
-      font-size: var(--sFontBody);
-      font-weight: 700;
-      padding: 12px 45px 12px 45px;
-      border-radius: 49px;
-      text-transform: lowercase;
-      background: var(--cDarkPink);
-      margin-left: 0;
-    }
+  @media screen and (max-width: 1023px) {
+    text-align: center;
+  }
+}
+
+.btn-footer {
+  font-size: var(--sFontBody);
+  font-weight: 700;
+  padding: 12px 45px 12px 45px;
+  border-radius: 49px;
+  text-transform: lowercase;
+  background: var(--cDarkPink);
+  margin-left: 0;
+}
+
+.subscribe-form {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-direction: column;
+  justify-content: center;
+
+  @media screen and (min-width: 1201px) {
+    align-items: flex-start;
+    justify-content: space-between;
   }
 }

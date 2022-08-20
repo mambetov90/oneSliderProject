@@ -1,5 +1,5 @@
 .section-main-banner {
-  background: url("images/parallax-left.png") -327px -294px no-repeat, url("images/parallax-right.png") 1000px 0px no-repeat;
+  background: url("images/parallax-left.png") -327px -294px no-repeat, url("images/parallax-right.png") right 0px no-repeat;
   background-attachment: fixed;
 }
 
@@ -36,6 +36,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: inherit;
   }
 }
 
@@ -92,16 +93,16 @@
   font-size: 45px;
 }
 .intro-banner__text_bottom > span {
-  display: block;
+  display: inline-flex;
 }
 @media screen and (max-width: 1023px) {
   .intro-banner__text_bottom > span {
-    display: inline-block;
+    display: block;
   }
 }
 @media screen and (max-width: 1200px) {
   .intro-banner__text_bottom {
-    top: 170px;
+    top: 190px;
     left: 50px;
     font-size: 35px;
   }
@@ -109,7 +110,7 @@
 @media screen and (max-width: 1023px) {
   .intro-banner__text_bottom {
     margin-top: 30px;
-    position: relative;
+    position: inherit;
     top: inherit;
     left: inherit;
     font-size: 24px;

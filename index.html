@@ -26,16 +26,21 @@
               <a href="index.html">boobs guide</a>
             </div>
             <nav class="nav">
-              <a class="nav__link" href="">about</a>
-              <a class="nav__link active" href="">news</a>
-              <a class="nav__link" href="">pricing</a>
-              <a class="nav__link" href="">download</a>
+              <a class="nav__link" data-target="about" href="#about">about</a>
+              <a class="nav__link" data-target="news" href="#news">news</a>
+              <a class="nav__link" data-target="pricing" href="#pricing">pricing</a>
+              <a class="nav__link" data-target="download" href="#download">download</a>
             </nav>
+            <div class="nav__toggleBtn" id='menuBtn'>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
           </div>
         </div>
       </header>
       <section class="section-main-banner">
-        <div class="container main-banner">
+        <div class="container main-banner" id="about">
           <div class="intro-banner">
             <div class="intro-banner__image">
               <img class="banner-image" src="./images/Babe.png" alt="" />
@@ -55,7 +60,7 @@
             </div>
           </div>
         </div>
-        <div class="section-guide-content">
+        <div class="section-guide-content" id="news">
           <div class="container guide-content-block">
             <h3 class="section__title">You need this guide, and thats why</h3>
             <div class="articles">
@@ -86,7 +91,7 @@
             </div>
           </div>
         </div>
-        <div class="section-care-content">
+        <div class="section-care-content" id="pricing">
           <div class="container care-content-block">
             <div class="care-content-block__text">
               <p>
@@ -97,7 +102,7 @@
             </div>
           </div>
         </div>
-        <div class="section-secret-promo">
+        <div class="section-secret-promo" id="download">
           <div class="container secret-promo-block">
             <div class="secret-promo-block__text">
               <img src="images/lips.png" alt="lips" />
@@ -295,13 +300,13 @@
         <div class="container footer-block">
           <div class="footer-content">
             <div class="footer-logo-icons">
-              <a class="fb-logo" href="#">
+              <a class="fb-logo" href="#" target="_blank">
                 <img src="images/fb-icon.png" alt="" />
               </a>
-              <a class="insta-logo" href="">
+              <a class="insta-logo" href="" target="_blank">
                 <img src="images/insta-icon.png" alt="" />
               </a>
-              <a class="twitter-logo">
+              <a class="twitter-logo" href="#" target="_blank">
                 <img src="images/twitter-icon.png" alt="" />
               </a>
             </div>
@@ -329,8 +334,10 @@
                 <div class="hidden-header-text">
                   get the best in health and good looking
                 </div>
-                <div class="subscribe-content-hint">enter your email</div>
-                <button class="btn btn-footer" type="button">subscribe</button>
+                <form class="subscribe-form">
+                  <input class="subscribe-content-hint" placeholder="enter your email">
+                  <button class="btn btn-footer" type="submit">subscribe</button>
+                </form>
                 <div class="hidden-bottom-text">
                   By downloading you agree to the Terms of Use and Privacy
                   Policy.

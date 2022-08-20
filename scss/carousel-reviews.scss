@@ -3,6 +3,12 @@
   background: #F3F3F3;
   padding-bottom: 100px;
   position: relative;
+  overflow: hidden;
+
+  @media screen and (max-width: 1023px) {
+    padding-top: 20px;
+    padding-bottom: 30px;
+  }
 
   .slick-list {
     margin: 0 -27px;
@@ -20,10 +26,18 @@
 
   .carousel__arrow_prev {
     left: 10px;
+
+    @media screen and (max-width: 1200px) {
+      left: 20px;
+    }
   }
 
   .carousel__arrow_next {
     right: 10px;
+
+    @media screen and (max-width: 1200px) {
+      right: 20px;
+    }
   }
 
   .carousel__arrow {
@@ -33,15 +47,11 @@
     width: 56px;
     position: absolute;
     cursor: pointer;
+    z-index: 1;
 
     @media screen and (max-width: 1200px) {
       height: 46px;
       width: 46px;
-    }
-
-    @media screen and (max-width: 767px) {
-      height: 36px;
-      width: 36px;
     }
 
     &:hover,

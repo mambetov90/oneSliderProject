@@ -12,6 +12,19 @@
   max-width: 530px;
   text-align: right;
 }
+@media screen and (max-width: 1200px) {
+  .care-content-block__text {
+    font-size: 40px;
+    max-width: 300px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .care-content-block__text {
+    font-size: 30px;
+    max-width: 200px;
+    padding: 40px 0;
+  }
+}
 .care-content-block__text p {
   margin: 0;
 }

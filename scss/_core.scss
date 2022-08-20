@@ -1,7 +1,13 @@
 body {
   margin: 0;
   background-color: #fff;
+  font-family: "Gilroy", sans-serif;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 *,
 *:before,
 *:after {
@@ -34,8 +40,7 @@ ol {
   padding: 0 80px;
   margin: 0 auto;
 
-
-  @media screen and (max-width:1023px) {
+  @media screen and (max-width: 1023px) {
     padding: 0 10px;
   }
 }
@@ -47,4 +52,8 @@ ol {
   justify-content: center;
   align-items: center;
   text-decoration: none;
+}
+
+.noscroll {
+  overflow: hidden;
 }
