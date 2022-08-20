@@ -1,6 +1,6 @@
 .section-carousel-reviews {
   padding-top: 50px;
-  background: #F3F3F3;
+  background: #f3f3f3;
   padding-bottom: 100px;
   position: relative;
   overflow: hidden;
@@ -18,9 +18,8 @@
     display: flex !important;
   }
 
-
   .slick-slide {
-    height: inherit!important;;
+    height: inherit !important;
     margin: 0 27px;
   }
 
@@ -59,7 +58,6 @@
       opacity: 0.85;
     }
   }
-
 }
 
 .review-block {
@@ -97,6 +95,7 @@
   background: var(--cWhite);
   position: relative;
   flex-grow: 1;
+  letter-spacing: 0;
 }
 
 .review-block__content-header {
@@ -115,8 +114,8 @@
   background-image: linear-gradient(to right, var(--cRed), var(--cPink));
   display: inline-flex;
   color: var(--cWhite);
-  padding: 15px 40px;
-  border-radius: 34px;
+  padding: 17px 35px;
+  border-radius: 137px;
   text-align: center;
   align-items: center;
   position: absolute;

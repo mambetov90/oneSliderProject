@@ -142,6 +142,7 @@ body {
   margin: 0;
   background-color: #fff;
   font-family: "Gilroy", sans-serif;
+  letter-spacing: 1.5px;
 }
 
 html {
@@ -252,7 +253,7 @@ ol {
   bottom: -20px;
   height: 0;
   border-top: 0 solid transparent;
-  border-bottom: 17px solid transparent;
+  border-bottom: 21px solid transparent;
   border-left: 10px solid var(--cDarkPink);
 }
 .header-menu__logo a {
@@ -441,7 +442,7 @@ ol {
   display: block;
   position: absolute;
   text-align: center;
-  top: 210px;
+  top: 220px;
   left: 50px;
   font-weight: 700;
   text-transform: uppercase;
@@ -528,10 +529,10 @@ ol {
 }
 
 .section__title {
-  padding: 30px 30px 0 30px;
+  padding-top: 30px;
   color: #f60c4d;
-  justify-content: left;
-  font-size: 70px;
+  text-transform: uppercase;
+  font-size: 60px;
   align-items: center;
 }
 @media screen and (max-width: 1023px) {
@@ -541,7 +542,7 @@ ol {
 }
 
 .articles {
-  padding: 0 30px;
+  padding: 0 0 50px 0;
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
@@ -605,7 +606,7 @@ ol {
   position: relative;
   bottom: 200px;
   padding: 436px 0 180px;
-  font-size: 80px;
+  font-size: 70px;
   color: var(--cWhite);
   font-weight: 700;
   max-width: 530px;
@@ -670,7 +671,7 @@ ol {
 
 .section-carousel-reviews {
   padding-top: 50px;
-  background: #F3F3F3;
+  background: #f3f3f3;
   padding-bottom: 100px;
   position: relative;
   overflow: hidden;
@@ -759,6 +760,7 @@ ol {
   background: var(--cWhite);
   position: relative;
   flex-grow: 1;
+  letter-spacing: 0;
 }
 
 .review-block__content-header {
@@ -778,8 +780,8 @@ ol {
   background-image: linear-gradient(to right, var(--cRed), var(--cPink));
   display: inline-flex;
   color: var(--cWhite);
-  padding: 15px 40px;
-  border-radius: 34px;
+  padding: 17px 35px;
+  border-radius: 137px;
   text-align: center;
   align-items: center;
   position: absolute;
@@ -821,6 +823,7 @@ ol {
   text-align: center;
   text-transform: uppercase;
   font-size: var(--sFontLarge);
+  font-weight: 500;
 }
 
 .preview-content__preview-btn {
@@ -938,11 +941,12 @@ ol {
   display: flex;
   height: 100%;
   font-size: 16px;
-  font-weight: 400;
+  font-weight: 500;
   color: var(--cDarkPink);
   align-items: center;
   justify-content: center;
   text-align: center;
+  letter-spacing: 0;
 }
 @media screen and (min-width: 1201px) {
   .footer-text {

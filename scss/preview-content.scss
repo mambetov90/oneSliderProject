@@ -23,6 +23,7 @@
   text-align: center;
   text-transform: uppercase;
   font-size: var(--sFontLarge);
+  font-weight: 500;
 }
 
 .preview-content__preview-btn {
@@ -79,6 +80,6 @@
 }
 
 .preview-love {
-  background: url('images/with-love.png') center no-repeat;
+  background: url("images/with-love.png") center no-repeat;
   background-size: cover;
 }

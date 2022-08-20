@@ -23,6 +23,7 @@
   text-align: center;
   text-transform: uppercase;
   font-size: var(--sFontLarge);
+  font-weight: 500;
 }
 
 .preview-content__preview-btn {
