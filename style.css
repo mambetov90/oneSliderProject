@@ -513,11 +513,12 @@ ol {
 }
 
 .guide-content-block {
+  position: relative;
+  top: 30px;
   width: 100%;
   max-width: 1400px;
-  margin-top: 100px;
+  margin-top: 60px;
   background-color: #f3f3f3;
-  padding-bottom: 90px;
 }
 @media screen and (max-width: 1023px) {
   .guide-content-block {
@@ -527,11 +528,11 @@ ol {
 }
 
 .section__title {
-  padding-top: 30px;
+  padding: 30px 30px 0 30px;
   color: #f60c4d;
+  justify-content: left;
   font-size: 70px;
   align-items: center;
-  text-align: center;
 }
 @media screen and (max-width: 1023px) {
   .section__title {
@@ -540,10 +541,10 @@ ol {
 }
 
 .articles {
-  padding: 0 110px;
+  padding: 0 30px;
   display: flex;
   justify-content: space-between;
-  margin-top: 60px;
+  margin-top: 50px;
   gap: 100px;
 }
 @media screen and (max-width: 1200px) {
@@ -571,7 +572,7 @@ ol {
 .articles__title {
   align-items: center;
   justify-content: center;
-  font-size: 50px;
+  font-size: 40px;
   color: #f60c4d;
   margin-bottom: 30px;
 }
@@ -585,7 +586,7 @@ ol {
 }
 
 .articles__text {
-  font-size: 30px;
+  font-size: 27px;
   color: #595959;
 }
 @media screen and (max-width: 1023px) {
@@ -601,7 +602,9 @@ ol {
 }
 
 .care-content-block__text {
-  padding: 136px 0 180px;
+  position: relative;
+  bottom: 200px;
+  padding: 436px 0 180px;
   font-size: 80px;
   color: var(--cWhite);
   font-weight: 700;
@@ -916,7 +919,7 @@ ol {
 }
 @media screen and (min-width: 1201px) {
   .footer-logo-icons {
-    align-self: end;
+    align-self: flex-end;
   }
 }
 .footer-logo-icons a {
