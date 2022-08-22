@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  background-color: #fff;
+  font-family: "Gilroy", sans-serif;
+  letter-spacing: 1.5px;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 1360px;
+  padding: 0 80px;
+  margin: 0 auto;
+
+  @media screen and (max-width: 1023px) {
+    padding: 0 10px;
+  }
+}
+
+.btn {
+  border: none;
+  display: inline-flex;
+  color: #ffffff;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.noscroll {
+  overflow: hidden;
+}

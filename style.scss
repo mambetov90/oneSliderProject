@@ -1,0 +1,51 @@
+//sass --watch --sourcemap=none style.scss:style.css --no-cache
+
+@import "font/fonts";
+@import "scss/core";
+@import "scss/variables";
+@import "scss/header";
+@import "scss/main-banner";
+@import "scss/guide-content";
+@import "scss/care-content";
+@import "scss/secret-promo";
+@import "scss/tight-content";
+@import "scss/text-block";
+@import "scss/carousel-reviews";
+@import "scss/preview-content";
+@import "scss/footer";
+
+
+.intro-banner {
+  display: flex;
+  height: 100%;
+
+  @media screen and (max-width: 1023px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.intro-banner__image {
+  max-width: 760px;
+
+  @media screen and (max-width: 1023px) {
+    max-width: 360px;
+  }
+
+  img {
+    max-height: 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+    margin: auto auto;
+  }
+}
+
+.btn a {
+  color: var(--cWhite);
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
