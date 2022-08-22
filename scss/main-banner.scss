@@ -1,7 +1,8 @@
 .section-main-banner {
-  background: url("images/parallax-left.png") -327px -294px no-repeat,
+  background: url("images/parallax-left.png") left no-repeat,
     url("images/parallax-right.png") right 0px no-repeat;
   background-attachment: fixed;
+  background-size: 1000px;
 }
 
 .main-banner {
@@ -82,12 +83,16 @@
   display: block;
   position: absolute;
   text-align: center;
-  top: 220px;
-  left: 50px;
+  top: 230px;
+  left: 80px;
   font-weight: 700;
   text-transform: uppercase;
   color: var(--cDarkPink);
   font-size: 45px;
+
+  @media screen and (min-width: 1200px) {
+    width: 560px;
+  }
 
   & > span {
     display: inline-flex;
@@ -99,8 +104,14 @@
 
   @media screen and (max-width: 1200px) {
     top: 190px;
-    left: 50px;
-    font-size: 35px;
+    left: 110px;
+    font-size: 33px;
+  }
+
+  @media screen and (max-width: 1140px) {
+    top: 243px;
+    left: 120px;
+    font-size: 26px;
   }
 
   @media screen and (max-width: 1023px) {
@@ -130,6 +141,7 @@
   border-radius: 220px;
   text-transform: uppercase;
   background-image: linear-gradient(to right, var(--cRed), var(--cPink));
+  text-shadow: 1px 1px 6px var(--cBlack);
 
   @media screen and (max-width: 1200px) {
     padding: 30px 80px;
