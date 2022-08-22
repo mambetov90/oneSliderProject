@@ -2,7 +2,15 @@
   background: url("images/parallax-left.png") left no-repeat,
     url("images/parallax-right.png") right 0px no-repeat;
   background-attachment: fixed;
-  background-size: 1000px;
+  background-size: 900px;
+
+  @media screen and (max-width: 1200px) {
+    background-size: 550px;
+  }
+
+  @media screen and (max-width: 1024px) {
+    background-size: 400px;
+  }
 }
 
 .main-banner {

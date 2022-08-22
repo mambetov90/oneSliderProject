@@ -304,7 +304,13 @@ ol {
 .section-main-banner {
   background: url("images/parallax-left.png") left no-repeat, url("images/parallax-right.png") right 0px no-repeat;
   background-attachment: fixed;
-  background-size: 1000px; }
+  background-size: 900px; }
+  @media screen and (max-width: 1200px) {
+    .section-main-banner {
+      background-size: 550px; } }
+  @media screen and (max-width: 1024px) {
+    .section-main-banner {
+      background-size: 400px; } }
 
 .main-banner {
   padding-top: 50px;
@@ -794,17 +800,22 @@ ol {
   margin: auto auto; }
 
 .preview-love {
-  padding: 50px 0; }
-  @media screen and (max-width: 1023px) {
-    .preview-love {
-      padding: 30px 0; } }
-  .preview-love img {
-    max-height: 100%;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    display: block;
-    margin: auto auto; }
+  margin: 80px 0;
+  position: relative;
+  border: 2px solid #BF001F; }
+  .preview-love .love-text {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: -20px; }
+  .preview-love p {
+    margin: 0;
+    padding: 20px 100px 20px 30px;
+    font-weight: 700; }
+  .preview-love .preview-girl {
+    bottom: 0;
+    position: absolute;
+    right: 10px; }
 
 .footer {
   position: relative; }
