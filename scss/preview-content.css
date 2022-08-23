@@ -43,8 +43,8 @@
 }
 @media screen and (max-width: 375px) {
   .preview-content__preview-btn {
-    padding: 17px 35px;
-    font-size: 17px;
+    padding: 11px 26px;
+    font-size: 12px;
   }
 }
 
@@ -86,6 +86,23 @@
 }
 
 .preview-love {
-  background: url("images/with-love.png") center no-repeat;
-  background-size: cover;
+  margin: 80px 0;
+  position: relative;
+  border: 2px solid #bf001f;
+}
+.preview-love .love-text {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -20px;
+}
+.preview-love p {
+  margin: 0;
+  padding: 20px 100px 20px 30px;
+  font-weight: 700;
+}
+.preview-love .preview-girl {
+  bottom: 0;
+  position: absolute;
+  right: 10px;
 }

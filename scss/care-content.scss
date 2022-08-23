@@ -2,6 +2,10 @@
   background: var(--cPink) url("images/banner.png") no-repeat center;
   width: 100%;
   background-size: cover;
+
+  @media screen and (max-width: 767px) {
+    padding-top: 40px;
+  }
 }
 
 .care-content-block__text {
