@@ -42,8 +42,8 @@
   border-radius: 137.5px;
 
   @media screen and (max-width: 375px) {
-    padding: 17px 35px;
-    font-size: 17px;
+    padding: 11px 26px;
+    font-size: 12px;
   }
 }
 
@@ -87,7 +87,7 @@
 .preview-love {
   margin: 80px 0;
   position: relative;
-  border: 2px solid #BF001F;
+  border: 2px solid #bf001f;
 
   .love-text {
     position: absolute;
@@ -107,5 +107,4 @@
     position: absolute;
     right: 10px;
   }
-
 }
