@@ -2,6 +2,10 @@
   @media screen and (max-width: 1023px) {
     margin: 0 20px;
   }
+
+  @media screen and (min-width: 1201px) {
+    margin-bottom: -30px;
+  }
 }
 
 .guide-content-block {

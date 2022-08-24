@@ -438,6 +438,9 @@ ol {
 @media screen and (max-width: 1023px) {
   .section-guide-content {
     margin: 0 20px; } }
+@media screen and (min-width: 1201px) {
+  .section-guide-content {
+    margin-bottom: -30px; } }
 
 .guide-content-block {
   position: relative;
@@ -614,9 +617,6 @@ ol {
       .tight-content-container .btn {
         font-size: 40px; } }
     @media screen and (max-width: 600px) {
-      .tight-content-container .btn {
-        font-size: 30px; } }
-    @media screen and (max-width: 375px) {
       .tight-content-container .btn {
         font-size: 20px; } }
 
