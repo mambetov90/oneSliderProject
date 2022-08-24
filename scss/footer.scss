@@ -130,7 +130,14 @@
   max-width: 450px;
   opacity: 0.51;
 
-  @media screen and (max-width: 1023px) {
+  a {
+    color: var(--cWhite);
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 700;
+  }
+
+  @media screen and (max-width: 1200px) {
     text-align: center;
   }
 }
@@ -143,6 +150,11 @@
   text-transform: lowercase;
   background: var(--cDarkPink);
   margin-left: 0;
+  cursor: pointer;
+
+  &:hover {
+     opacity: 0.9;
+  }
 }
 
 .subscribe-form {
